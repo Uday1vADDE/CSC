@@ -1,0 +1,133 @@
+body{
+    color: white;
+    background: linear-gradient(
+        rgba(0,0,0,0.65),rgba(0,0,0,0.45),rgba(0,0,0,0.35),rgba(0,0,0,0)
+    );
+    /*background: url(canteen1.jpg)no-repeat;
+    background-size: cover;
+    font-family: sans-serif;*/
+}
+
+.main{
+    width: 1200px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    background-position: center;
+    background-size: cover;
+    height: 75px;
+    opacity: 0.9;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    opacity: 10;
+}
+
+.menu{
+    width: 600px;
+    float: left;
+    height: 70px;
+    border: 10px;
+    border-color: black;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 16px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+
+.content span{
+    color: #ff7200;
+    font-size: 65px
+}
+.wd{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(14, 11, 11);
+    opacity: 0.9;
+    float: right;
+    margin-top: 5px;
+    padding-bottom: 10px;
+    padding: 55px;
+    
+}
+.wd h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100px;
+}
+
+.wd h3{
+    text-align: center;
+}
+.opt form, input[type="submit"]{
+    width: 50px;
+    height: 40px;
+    background-color: #ff7200;
+    border: 2px solid whitesmoke;
+    color: white;
+    padding:10px;
+    margin: -14px auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    cursor: pointer;
+    text-align: center;
+}
+input[type="submit"]:hover{color: black;}
+input[type="submit"]:focus{outline: none;}
+
+.opt form, input[type="reset"]{
+    width: 50px;
+    height: 40px;
+    background-color: #ff7200;
+    border: 2px solid whitesmoke;
+    color: white;
+    padding:10px;
+    margin: -14px auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    cursor: pointer;
+    text-align: center;
+}
+input[type="reset"]:hover{color: black;}
+input[type="reset"]:focus{outline: none;}
+
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+.icons ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: #ff7200;
+}
